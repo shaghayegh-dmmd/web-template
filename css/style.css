@@ -1,0 +1,80 @@
+.navbar {
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0 7px 8px 0px rgb(0 0 0 / 6%);
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+.navbar ul {
+  display: flex;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  overflow: hidden;
+}
+
+.dropdown-content {
+  display: none;
+  text-align: center;
+  margin-top: 2em;
+  position: absolute;
+  width: 100vw;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.nav-link:hover .dropdown-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Samenwerken {
+  background-color: var(--primary);
+  border: none;
+  padding: 0.5em 3em;
+  border-radius: 50px;
+  color: white;
+}
+.nav-link {
+  padding: 2rem 2rem;
+}
+.active {
+  border-bottom: solid 2px var(--primary);
+}
+.active a{
+  font-weight: 600;
+  color: var(--primary);
+}
+.nav-link:hover a{
+  color: var(--primary);
+}
+.nav-link:hover{
+  border-bottom: solid 2px var(--primary);
+}
