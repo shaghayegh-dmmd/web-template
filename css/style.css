@@ -90,7 +90,7 @@ ul {
   color: #b4b4b4;
 }
 .hilight{
-  color: #04a99c;
+  color:var(--secendry);
 }
 .animate{
   display: block;
@@ -110,4 +110,29 @@ ul {
   border-left: 10px solid #fff;
   border-right: 10px solid #fff;
   animation: animborder 2s linear infinite;
+}
+.title-line{
+  background-color: var(--primary);
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 3px;
+  margin: 2em 0;
+}
+.image-main{
+  width: 100%;
+}
+main .row{
+  padding: 10px;
+}
+.col-image , .col-content{
+  padding: 2em;
+}
+.main__button{
+  padding: 0.5em 2em;
+  margin: 1em 0;
+  background-color: var(--secendry);
+  color: white;
+  border: none;
+  border-radius:5px;
 }
