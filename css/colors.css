@@ -2,6 +2,8 @@
     --primary:rgb(11, 124, 118);
     --secendry:#04a99c;
     --buttoncolor:#0189C3;
+    --disable: #B1B1B1;
+    --light-color:#eff3f1;
 }
 @keyframes fadeInLeft {
     0% {
