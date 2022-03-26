@@ -115,9 +115,18 @@ ul {
   background-color: var(--primary);
   display: block;
   position: relative;
-  width: 30px;
+  width: 50px;
   height: 3px;
   margin: 2em 0;
+}
+.title-line::after{
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 3px;
+  left: 7px;
+  border-left: 3px solid white;
+
 }
 .image-main{
   width: 100%;
@@ -142,4 +151,27 @@ main .row{
 }
 .main__button:hover{
   background-color: var(--secendry);
+}
+.col-image{
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+}
+.col-content{
+  animation-name: fadeInRight;
+  animation-duration: 1s;
+}
+/* section1 */
+.col-content-secendry , .col-image-secendry{
+  padding: 2em;
+}
+.col-content-secendry{
+  animation-name: fadeInLeft;
+  animation-duration: 1s;
+}
+.col-image-secendry{
+  animation-name: fadeInRight;
+  animation-duration: 1s;
+}
+.image-section1{
+  width: 100%;
 }
