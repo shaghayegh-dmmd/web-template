@@ -82,6 +82,9 @@ ul {
   border-bottom: solid 2px var(--primary);
 }
 /* main */
+.container {
+  max-width: 1140px;
+}
 .title {
   display: flex;
   align-items: center;
@@ -184,7 +187,7 @@ main .row {
   width: 100vw;
   height: 50vh;
   background-repeat: no-repeat;
-  background-position: 1em 3em;
+  background-position: 0em 3em;
   overflow: hidden;
 }
 .circle__dash {
@@ -222,4 +225,44 @@ main .row {
   color: white;
   font-weight: 700;
   font-size: 20px;
+}
+/* section3 */
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #f1f1f1;
+  color: #666;
+}
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+.MultiCarousel .leftLst {
+  left: 0;
+}
+.MultiCarousel .rightLst {
+  right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
 }
