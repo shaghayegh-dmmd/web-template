@@ -228,3 +228,15 @@ main .row {
 }
 /* section3 */
 
+/* section4 */
+.graid {
+  height: 50%;
+  display: flex;
+  
+}
+.graid__image {
+  width: 300px;
+  height: 150px;
+  background-image: url(../public/image/Schermafbeelding-2021-02-24-om-17.29.48-2048x1134.jpg);
+  background-size: cover;
+}
