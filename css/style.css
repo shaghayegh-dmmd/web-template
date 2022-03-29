@@ -241,11 +241,8 @@ main .row {
   padding: 0 4px;
 }
 .column {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
+  -ms-flex: 0; /* IE 10 */
+  flex: 0;
   padding: 0 4px;
 }
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
+
