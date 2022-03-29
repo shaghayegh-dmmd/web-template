@@ -229,14 +229,23 @@ main .row {
 /* section3 */
 
 /* section4 */
-.graid {
-  height: 50%;
-  display: flex;
-  
+.section4__image{
+  width: 200px;
+  height: 100px;
 }
-.graid__image {
-  width: 300px;
-  height: 150px;
-  background-image: url(../public/image/Schermafbeelding-2021-02-24-om-17.29.48-2048x1134.jpg);
-  background-size: cover;
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
