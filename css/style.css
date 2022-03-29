@@ -230,8 +230,8 @@ main .row {
 
 /* section4 */
 .section4__image{
-  width: 200px;
-  height: 100px;
+  width: 250px;
+  height: 150px;
 }
 .row {
   display: -ms-flexbox; /* IE 10 */
