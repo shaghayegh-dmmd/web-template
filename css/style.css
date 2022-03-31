@@ -232,8 +232,9 @@ main .row {
 .section4__image{
   width: 250px;
   height: 150px;
+  margin-bottom: 8px;
 }
-.row {
+.section4__row {
   display: -ms-flexbox; /* IE 10 */
   display: flex;
   -ms-flex-wrap: wrap; /* IE 10 */
