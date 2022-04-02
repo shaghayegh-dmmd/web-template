@@ -246,4 +246,8 @@ main .row {
   flex: 0;
   padding: 0 4px;
 }
+.section5__col{
+  border:solid 1px var(--primary);
+  width: 100%;
+}
 
