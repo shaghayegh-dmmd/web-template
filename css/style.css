@@ -247,12 +247,14 @@ main .row {
   padding: 0 4px;
 }
 .section5__row{
-  flex-direction: column;
+  flex-direction: row;
+  width: 100%;
 }
 .section5__col{
   border:solid 1px var(--primary);
   flex-direction: column;
-  width: 100%;
+  width: 31%;
   height: 300px;
+  margin: 10px;
 }
 
