@@ -256,5 +256,11 @@ main .row {
   width: 31%;
   height: 300px;
   margin: 10px;
+  padding: 0;
+}
+.col__title{
+  width: 100%;
+  padding: 30px;
+  background-color: var(--primary);
 }
 
