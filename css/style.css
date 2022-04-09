@@ -252,6 +252,8 @@ main .row {
 }
 .section5__col{
   border:solid 1px var(--primary);
+  display: flex;
+  align-items: center;
   flex-direction: column;
   width: 31%;
   height: 300px;
